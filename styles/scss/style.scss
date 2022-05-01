@@ -2,11 +2,50 @@
 
 $font1: 'Libre Bodoni', serif;
 $primary: #535339;
+$black: #141408ef;
 $beige: #d9d9c3;
 
 html,body {
     margin: 0;
     overflow-x: hidden; 
-    background-color: $primary;
-    font-family: $font1;
+    background-color: $beige;
 }
+#header {
+    font-family: $font1;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: $black;
+    margin-top: 100px;
+}
+#sub {
+    font-family: $font1;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+#letters-link, #about-link {
+    font-family: $font1;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: $black;
+    font-style: normal;
+    text-decoration: none;
+    display:block;
+}
+#letters-link {
+    margin-top: 150px;
+}
+#letters-link:hover, #about-link:hover {
+    text-decoration: underline;
+    color: $primary;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
