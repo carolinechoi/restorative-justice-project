@@ -39,14 +39,7 @@ html, body {
 
 #letters-link:hover, #about-link:hover {
   text-decoration: underline;
-  color: #535339;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  color: #002c23;
 }
 
 /*# sourceMappingURL=style.css.map */
