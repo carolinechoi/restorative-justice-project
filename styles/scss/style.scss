@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 $font1: 'Libre Bodoni', serif;
-$primary: #002c23;
+$primary: #939483;
 $black: #141408ef;
 $beige: #d9d9c3;
 
@@ -17,6 +17,7 @@ html,body {
     text-align: center;
     color: $black;
     margin-top: 100px;
+    background-color: #CFA09A;
 }
 #sub {
     font-family: $font1;
@@ -39,6 +40,6 @@ html,body {
     margin-top: 150px;
 }
 #letters-link:hover, #about-link:hover {
-    text-decoration: underline;
+    text-decoration: line-through;
     color: $primary;
 }  

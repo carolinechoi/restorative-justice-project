@@ -12,6 +12,7 @@ html, body {
   text-align: center;
   color: rgba(20, 20, 8, 0.937254902);
   margin-top: 100px;
+  background-color: #CFA09A;
 }
 
 #sub {
@@ -38,8 +39,8 @@ html, body {
 }
 
 #letters-link:hover, #about-link:hover {
-  text-decoration: underline;
-  color: #002c23;
+  text-decoration: line-through;
+  color: #939483;
 }
 
 /*# sourceMappingURL=style.css.map */
